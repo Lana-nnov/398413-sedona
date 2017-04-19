@@ -1,0 +1,19 @@
+body {
+	color: #333333;	
+	font-size: 14px; 
+	line-height: 26px;
+	font-weight: 400;
+	font-family: 'PT Sans', sans-serif;
+}
+.img-main h1,
+.centerblock-place h2 {
+	color: #000000;	
+	font-size: 21px; 
+	font-weight: 700;
+}
+.place h2,
+.feedback h2 {
+	color: #ffffff;	
+	font-size: 21px; 
+	font-weight: 700;
+}
