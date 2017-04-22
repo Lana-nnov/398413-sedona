@@ -1,3 +1,12 @@
+/* --------------- reset.css --------------- */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;                               
+	vertical-align: baseline;          
+}
+/* ------------------------------ */
 body {
 	color: #333333;	
 	font-size: 14px; 
@@ -11,10 +20,6 @@ body {
     content: "";
     display: table;
 }
-.container {
-	width: 1200px;
-	margin: 0 auto;
-}	
 .img-main h1,
 .centerblock-place h2 {
 	color: #000000;	
@@ -27,6 +32,11 @@ body {
 	font-size: 21px; 
 	font-weight: 700;
 }
+/* --------------- стили для index.html --------------- */
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}	
 .logo {
 	display: block;
 	margin: 0 auto;
@@ -147,4 +157,59 @@ b.features-name {
 	width: 400px;
 	text-align: center;
 	outline: 1px solid red;
+}
+/* --------------- стили для inner.html --------------- */
+.booking-form {
+	padding-left: 73px;
+	padding-right: 73px;
+	padding-top: 28px;
+	outline: 1px solid red;
+	min-height: 188px;
+}
+.booking-form fieldset {
+	float: left;
+	width: 241px;
+	outline: 1px solid green;
+}
+.dayscount {
+	float: right;
+	width: 168px;
+	text-align: center;
+	outline: 1px solid green;
+}
+.centerblock {
+	padding-left: 73px;
+	padding-right: 73px;
+	outline: 1px solid red;
+}	
+.centerblock-range {
+	outline: 1px solid green;	
+	padding-top: 28px;
+	padding-bottom: 36px;
+}
+.centerblock-range p,
+.centerblock-range li {
+	float: left;
+	width: 120px;	
+}
+.centerblock-place {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	outline: 1px solid green;	
+}
+.centerblock-place img {
+	float: left;
+	margin-right: 30px;
+}
+.centerblock-place-hotel {
+	float: left;
+	width: 528px;
+	outline: 1px solid green;	
+	margin-right: 30px;
+}
+.centerblock-place-rank {
+	float: right;
+	vertical-align: top;
+	width: 160px;
+	outline: 1px solid green;	
 }

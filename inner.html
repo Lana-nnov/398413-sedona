@@ -11,7 +11,7 @@
 			<a href="#">
 				<img class="logo" src="img/logo.png" width="138" height="70" alt="Седона логотип">
 			</a>
-			<nav class="main-navigation">
+			<nav class="main-navigation clearfix">
 				<ul>
 					<li>
 						<a href="#">Информация</a>
@@ -28,34 +28,47 @@
 				</ul>
 			</nav>      	
 		</header>
-		<form class="booking-form" action="https://echo.htmlacademy.ru" method="post">
+		<form class="booking-form clearfix" action="https://echo.htmlacademy.ru" method="post">
 			<fieldset>
-				<legend>Инфраструктура</legend>				
-				<input type="checkbox" name="pool" id="choice-1">
-				<label for="choice-1">Бассейн</label>
-				<input type="checkbox" name="parking" id="choice-2">
-				<label for="choice-2">Парковка</label>
-				<input type="checkbox" name="wi-fi" id="choice-3">
-				<label for="choice-3">Wi-fi</label>						
+				<legend>Инфраструктура</legend>			
+				<p>
+					<input type="checkbox" name="pool" id="choice-1">					
+					<label for="choice-1">Бассейн</label>
+				</p>
+				<p>
+					<input type="checkbox" name="parking" id="choice-2">				
+					<label for="choice-2">Парковка</label>
+				</p>
+				<p>				
+					<input type="checkbox" name="wi-fi" id="choice-3">
+					<label for="choice-3">Wi-fi</label>		
+				</p>		
 			</fieldset>
 			<fieldset>
-				<legend>Тип жилья</legend>			
-				<input type="checkbox" name="hotel" id="choice-4">
-				<label for="choice-4">Гостиница</label>
-				<input type="checkbox" name="motel" id="choice-5">
-				<label for="choice-5">Мотель</label>
-				<input type="checkbox" name="apartments" id="choice-6">
-				<label for="choice-6">Апартаменты</label>
+				<legend>Тип жилья</legend>		
+				<p>	
+					<input type="checkbox" name="hotel" id="choice-4">
+					<label for="choice-4">Гостиница</label>
+				</p>	
+				<p>
+					<input type="checkbox" name="motel" id="choice-5">
+					<label for="choice-5">Мотель</label>
+				</p>	
+					<input type="checkbox" name="apartments" id="choice-6">
+					<label for="choice-6">Апартаменты</label>
+				</p>	
 			</fieldset>			
 			<div class="dayscount">				
 				<label for="dayscount">Стоимость в сутки</label>
                     от 0<input type="range" id="dayscount" name="dayscount" min="0" max="300" step="1">до 300	
-			</div>		
-			<button class="btn" type="submit">Показать</button>	
+				<p>
+					<button class="btn" type="submit">Показать</button>	
+				</p>	
+			</div>					
 		</form>
-		<section class="centerblock">
-			<b>Найдено:</b>
-			<div class="centerblock-range">
+		<section class="centerblock clearfix">			
+			<div class="centerblock-range clearfix">
+				<p><b>Найдено:</b></p>
 				<p>Сортировка:</p>
 				<ul>
 					<li>
@@ -69,56 +82,59 @@
 					</li>                 
 				</ul>		
 			</div>	
-			<div class="centerblock-place">
+			<div class="centerblock-place clearfix">
 				<img src="img/hotel1.jpg" width="135" height="90" alt="Седона гостиница">
-				<h2>Amara resort & SPA</h2>
-				<p>Гостиница</p>
-				<p>От 4000 р.</p>				
-				<a class="btn" href="#">Подробнее</a>
-				<a class="btn" href="#">Забронировать</a>
+				<div class="centerblock-place-hotel">
+					<h2>Amara resort & SPA</h2>
+					<p>Гостиница</p>
+					<p>От 4000 р.</p>				
+					<a class="btn" href="#">Подробнее</a>
+					<a class="btn" href="#">Забронировать</a>
+				</div>	
 				<div class="centerblock-place-rank">
 					<img src="img/rank.png" width="89" height="17" alt="рейтинг">
 					<p>Рейтинг: 8,5</p>	
 				</div>		
 			</div>
-			<div class="centerblock-place">
+			<div class="centerblock-place clearfix">
 				<img src="img/hotel2.jpg" width="135" height="90" alt="Седона гостиница">
-				<h2>Desert Quaill Inn</h2>
-				<p>Мотель</p>
-				<p>От 3000 р.</p>				
-				<a class="btn" href="#">Подробнее</a>
-				<a class="btn" href="#">Забронировать</a>
+				<div class="centerblock-place-hotel">
+					<h2>Desert Quaill Inn</h2>
+					<p>Мотель</p>
+					<p>От 3000 р.</p>				
+					<a class="btn" href="#">Подробнее</a>
+					<a class="btn" href="#">Забронировать</a>
+				</div>	
 				<div class="centerblock-place-rank">
 					<img src="img/rank.png" width="89" height="17" alt="рейтинг">
 					<p>Рейтинг: 8,9</p>	
 				</div>	
 			</div>
-			<div class="centerblock-place">
+			<div class="centerblock-place clearfix">
 				<img src="img/hotel3.jpg" width="135" height="90" alt="Седона гостиница">
-				<h2>Villas at poko Diablo</h2>
-				<p>Апартаменты</p>
-				<p>От 2000 р.</p>				
-				<a class="btn" href="#">Подробнее</a>
-				<a class="btn" href="#">Забронировать</a>
+				<div class="centerblock-place-hotel">
+					<h2>Villas at poko Diablo</h2>
+					<p>Апартаменты</p>
+					<p>От 2000 р.</p>				
+					<a class="btn" href="#">Подробнее</a>
+					<a class="btn" href="#">Забронировать</a>
+				</div>	
 				<div class="centerblock-place-rank">
 					<img src="img/rank.png" width="89" height="17" alt="рейтинг">
 					<p>Рейтинг: 9,2</p>	
 				</div>	
 			</div>
 		</section>
-		<footer>
-			<div class="container">				  
-				<a href="#">#visitsedona</a>
-				<section class="footer-social">			  
-				  <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-				  <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-				  <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-				</section>
-				<section class="footer-copyright">
-				  <p>Website by:</p>
-				  <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-				</section>
-			</div>
+		<footer class="container-footer clearfix">						  
+			<a href="#">#visitsedona</a>				
+			<section class="footer-social clearfix">			  
+				<a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+				<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+				<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+			</section>
+			<section class="footer-copyright">				
+				<a class="btn logo-btn" href="https://htmlacademy.ru"><span>Website by:</span>HTML Academy1</a>				
+			</section>			
 		</footer>
 	</div>
 </body>	
