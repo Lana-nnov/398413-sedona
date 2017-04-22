@@ -7,11 +7,11 @@
   </head>
   <body>
     <div class="container">
-		<header class="main-header">			
+		<header class="main-header clearfix">			
 			<a href="#">
 				<img class="logo" src="img/logo.png" width="138" height="70" alt="Седона логотип">
 			</a>
-			<nav class="main-navigation">
+			<nav class="main-navigation clearfix">
 				<ul>
 					<li>
 						<a href="#">Информация</a>
@@ -29,53 +29,53 @@
 			</nav>      		
 		</header>
         <div class="img-main">
-			<img src="img/sedona-main.jpg" width="1200" height="773" alt="Седона">
-			<img src="img/sedona-text.png" width="458" height="352" alt="Седона приветствие">
-			<img src="img/sedona-main-bottom.png" width="458" height="57" alt="Седона нижний фон">
+			<img class="sedona-main" src="img/sedona-main.jpg" width="1200" height="773" alt="Седона">
+			<img class="sedona-text" src="img/sedona-text.png" width="458" height="352" alt="Седона приветствие">
+			<img class="sedona-main-bottom" src="img/sedona-main-bottom.png" width="1200" height="57" alt="Седона нижний фон">
 			<h1>Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
 			<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд каньон</p>
 		</div>		 
-		<section class="place">
-			<div class="place-wrapper">
+		<section class="place clearfix">
+			<div class="place-wrapper-first">
 				<h2>Настоящий городок</h2>
 				<p>№1</p>
 				<p>Седона не аттракцион для туристов, там течет своя жизнь</p>
 			</div>
-			<img src="img/place1.jpg" width="800" height="256" alt="Дом в Седоне">
+			<img class="place-img1" src="img/place1.jpg" width="800" height="256" alt="Дом в Седоне">
 		</section>
-		<section class="features">
+		<section class="features clearfix">
 			<div class="features-item">
 				<b class="features-name">Жилье</b>
-				<p>Рекомендуем пожить в настоящем мотеле. Все как в кино!</p>
+				<p class="features-name">Рекомендуем пожить в настоящем мотеле. Все как в кино!</p>
 			</div>
 			<div class="features-item">
 				<b class="features-name">Еда</b>
-				<p>Всегда заказывайте фирменный бургер. Вы не разочаруетесь!</p>
+				<p class="features-name">Всегда заказывайте фирменный бургер. Вы не разочаруетесь!</p>
 			</div>
 			<div class="features-item">
 				<b class="features-name">Сувениры</b>
-				<p>Не только китайского, но и местного производства!</p>
+				<p class="features-name">Не только китайского, но и местного производства!</p>
 			</div>
 		</section>
-		<section class="place">
-			<div class="place-wrapper">
+		<section class="place clearfix">
+			<div class="place-wrapper-second">
 				<h2>Там есть мост дьявола</h2>
 				<p>№2</p>
 				<p>Да, по нему можно пройти, если, конечно, вы осмелитесь</p>
 			</div>	
-			<img src="img/place2.jpg" width="800" height="256" alt="Мост Дьявола">
-			<section class="place-about">
-				<div class="place-about-item">
+			<img class="place-img2" src="img/place2.jpg" width="800" height="256" alt="Мост Дьявола">
+			<section class="features-else clearfix">
+				<div class="features-item">
 					<b class="place-about-name">Небольшая площадь</b>
 					<p>№3</p>
 					<p>Все достопримечательности находятся очень близко</p>
 				</div>
-				<div class="place-about-item">
+				<div class="features-item">
 					<b class="place-about-name">Красивая дорога</b>
 					<p>№4</p>
 					<p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
 				</div>
-				<div class="place-about-item">
+				<div class="features-item">
 					<b class="place-about-name">Мало туристов</b>
 					<p>№5</p>
 					<p>Большинство едет в Гранд-каньон и толпится там</p>
@@ -111,19 +111,16 @@
 		<div class="map">
 			<img src="img/map.jpg" width="1200" height="593" alt="Седона карта">
 		</div>	 
-		<footer>
-			<div class="container">						  
-				<a href="#">#visitsedona</a>				
-				<section class="footer-social">			  
-				    <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-				    <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-				    <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-				</section>
-				<section class="footer-copyright">
-				    <p>Website by:</p>
-				    <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-				</section>
-			</div>
+		<footer class="container-footer clearfix">						  
+			<a href="#">#visitsedona</a>				
+			<section class="footer-social clearfix">			  
+				<a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+				<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+				<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+			</section>
+			<section class="footer-copyright">				
+				<a class="btn logo-btn" href="https://htmlacademy.ru"><span>Website by:</span>HTML Academy1</a>				
+			</section>			
 		</footer>
 	</div>
 </body>	
