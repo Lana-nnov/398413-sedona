@@ -68,6 +68,7 @@ body {
 .img-main{
 	text-align: center;
 	padding-bottom: 53px;
+	background-image: url(img/sedona-main.jpg);	
 	outline: 1px solid red;
 }	
 .img-main h1{
@@ -90,19 +91,28 @@ body {
 .place-img1 {
 	float: right;
 }
+.features {
+	font-size: 0px;
+}	
+.features-else {
+	font-size: 0px;
+}	
 .features-item {
-	float: left;
+	display: inline-block;
+	vertical-align: top;	
 	width: 240px;
 	outline: 1px solid red;
+	font-size: 14px;
 	text-align: center;	
 	padding-left: 80px;
 	padding-right: 80px;
 	padding-bottom: 88px;	
 }	
-b.features-name {
+.features-item b{
+	font-size: 21px;
 	margin-top: 100px;
 	display: inline-block;
-}
+}	
 .features-item p{
 	margin-top: 25px;	
 }	
@@ -136,6 +146,10 @@ b.features-name {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
+.map {
+	background-image: url(img/map.jpg);	
+	min-height: 593px;
+}	
 .container-footer a {	
 	float: left;
 	width: 400px;
@@ -188,7 +202,7 @@ b.features-name {
 	padding-bottom: 36px;
 }
 .centerblock-range p,
-.centerblock-range li {
+.centerblock-range ul {
 	float: left;
 	width: 120px;	
 }
