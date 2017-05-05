@@ -82,21 +82,20 @@ body {
 	background-size: 1200px 510px;
 	z-index: 1;	
 }	
-.img-main h1 {
-	color: #000000;	
-	font-size: 21px; 
-	font-weight: 700;
-}	
+
 .img-main-text{
 	position: absolute;
 	width: 100%;
-	top: 572px;
+	top: 569px;
 	text-align: center;		
 }
 .img-main-text h1{
-	font-size: 21px;	
+	font-size: 21px;
+	line-height: 26px;	
+	font-weight: 700;
 	margin-top: 0;
-	margin-bottom: 34px;
+	margin-bottom: 32px;	
+	padding: 0;
 }	
 .img-main-text p{	
 	margin: 0;
@@ -123,8 +122,15 @@ body {
 .place h2 {
 	color: #ffffff;	
 	font-size: 21px; 
+	line-height: 21px;
 	font-weight: 700;
+	margin: 0;
+	margin-bottom: 26px;
+	padding: 0;
 }
+.place-wrapper-second h2 {
+	margin: 0;
+}	
 .place-wrapper-first {
 	float: left;
 	width: 280px;
@@ -145,18 +151,24 @@ body {
 	min-height: 209px;	
 	padding-left: 48px;
 	padding-right: 48px;
-	background-color: #81b3d2;	
+	background-color: #81b3d2;		
 }
-.place-wrapper-first p{
-	margin-top: 26px;
+.place-wrapper-first p{	
 	font-size: 14px;
 	line-height: 21px;
+	margin-bottom: 24px;	
+	padding: 0;	
 }	
-.place-wrapper-second p{
-	margin-top: 26px;
+.place-wrapper-second p{	
 	font-size: 14px;
 	line-height: 21px;
+	margin-bottom: 24px;
+	padding: 0;	
 }	
+.place-wrapper-second p:nth-child(3){	
+	text-align: left;	
+	display: inline;
+}
 .place-img1 {
 	position: absolute;
 	top: 0;
@@ -178,26 +190,39 @@ body {
 }	
 .features-item {                /* лишние 5 пикселей высоты у блока, не могу найти откуда*/
 	display: inline-block;
-	vertical-align: top;	
-	width: 256px;	
+	vertical-align: top;			
 	font-size: 14px;
-	text-align: center;	
-	padding-left: 72px;
-	padding-right: 72px;	
-	padding-bottom: 85px;
+	text-align: center;		
+	padding-bottom: 80px;
 	padding-top: 160px;
 	position: relative;
 }	
+.features-item-home {
+	padding-left: 72px;
+	padding-right: 72px;
+    width: 256px;		
+}
+.features-item-food {
+	padding-left: 58px;
+	padding-right: 58px;
+	width: 	284px;
+}
+.features-item-present {
+	padding-left: 60px;
+	padding-right: 60px;	
+	width: 280px;
+}
 .features-item-else {
 	display: inline-block;
 	vertical-align: top;	
 	width: 256px;	
 	font-size: 14px;
+    line-height: 21px;	
 	text-align: center;	
 	padding-left: 72px;
 	padding-right: 72px;	
-	padding-top: 50px;
-	padding-bottom: 60px;
+	padding-top: 46px;
+	padding-bottom: 37px;
 	position: relative;
 }	
 .features-item::before {
@@ -230,22 +255,29 @@ body {
 	font-size: 21px;
 	line-height: 21px;	
 	margin-top: 0;
-	margin-bottom: 30px;
+	margin-bottom: 28px;
 	display: inline-block;
 }	
 .features-item-else b{
 	font-size: 21px;
 	line-height: 21px;	
+	margin-bottom: 23px;
 	margin-top: 0;	
 	display: inline-block;
 }	
 .features-item p{
 	font-size: 14px;
+	line-height: 21px;	
+	margin: 0;	
+	padding: 0;	
+}	
+.features-item-else p{
+	font-size: 14px;
 	line-height: 21px;
-	margin: 0;
+	margin-bottom: 23px;	
+	margin-top: 0;
 	padding: 0;
 }	
-
 .feedback {
 	position: relative;
 	padding-top: 55px;
@@ -253,11 +285,14 @@ body {
 	text-align: center;		
 }
 .feedback b{
-	font-size: 30px;
-	margin-bottom: 30px;
+	font-size: 30px;	
+	display: block;
+	margin-bottom: 30px;	
 }	
 .feedback p{	
 	line-height: 24px;
+	padding: 0;
+	margin: 0;		
 }	
 .feedback-form {
 	position: absolute;
@@ -387,8 +422,7 @@ input[type='number'] {
 	position: relative;	
 	padding-bottom: 0;
 }	
-.feedback-form-group-adults label{
-	
+.feedback-form-group-adults label{	
 	width: 108px;	
 }	
 .feedback-form-group-kids label{
@@ -416,7 +450,7 @@ input[type='number'] {
 .feedback-form-group-kids {
 	float: right;		
 	position: relative;
-	margin-bottom: 55px;	
+	margin-bottom: 50px;	
 }	
 .feedback-form-group-kids input {	
 	background: 	
@@ -523,11 +557,11 @@ input[type='number'] {
 	width: 300px;
 	padding-left: 100px;	
 	text-align: left;	
-	margin-top: 38px;
-	margin-bottom: 38px;	
+	margin-top: 40px;
+	margin-bottom: 40px;	
 }	
 .footer-copyright a{
-	background: url(img/logo-footer.png) no-repeat 50% 50%;		
+	background: url(img/logo-footer.png) no-repeat 46% 65%;		
 	display: block;
 	padding-top: 7px;
 	padding-bottom: 7px;
@@ -549,16 +583,23 @@ input[type='number'] {
 }
 .booking-form fieldset {
 	float: left;
-	width: 241px;	
+	width: 253px;	
 	border: none;
+	padding: 0;	
 	padding: 0;
+	margin: 0;
 }
 .booking-form legend {
 	font-size: 16px;
 	font-weight: 700;	
 }	
+.booking-form label {
+	margin-bottom: 28px;
+	font-size: 14px;
+	line-height: 21px;
+}	
 input[type="checkbox"] {
-	display: none;
+	display: none;	
 }	
 input[type="checkbox"] + label {
 	display: block;
@@ -589,6 +630,9 @@ input[type="checkbox"]:checked + label::after {
     height: 22px;
     background-position: -10px -10px;	
 }
+input[type="checkbox"]:disabled + label::before {	
+	border: 2px solid #6a6a6a;	
+}	
 input[type="checkbox"]:disabled + label::after {
 	content: "";
 	display: block;	
@@ -604,43 +648,52 @@ input[type="checkbox"]:disabled + label::after {
 /* не получается при наведении или блокировке убирать нижнюю белую рамку - как это сделать? */
 .filter-range {
 	float: right;
-	width: 330px;	
+	width: 317px;	
 	text-align: center;	
+	
 }
 .filter-range-title {
-  margin-bottom: 9px;
-  font-weight: 700;  
+	margin-bottom: 9px;
+	font-weight: 700;
+  	text-align: left;
+	font-size: 16px;
+	line-height: 21px;
 }
 .price-controls {
-  height: 36px;
-  margin-bottom: 20px;
-  border: 2px solid #ffffff;
-  border-radius: 2px;
-  font-size: 0;
-  position: relative;
+	height: 36px;
+	margin-bottom: 20px;
+	border: 2px solid #ffffff;
+	border-radius: 2px;
+	font-size: 0;
+	position: relative;
 }
 .price-controls::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 2px;
-  height: 22px;
-  background: #ffffff;
-  transform: translate(-50%, -50%);
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 2px;
+	height: 22px;
+	background: #ffffff;
+	transform: translate(-50%, -50%);
 }
 .price-controls label {
-  display: inline-block;
-  font-size: 14px;
-  line-height: 38px;
-  vertical-align: top;
-  cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 38px;
+	vertical-align: top;
+	cursor: pointer;
 }
-.price-controls .min-price,
+.price-controls .min-price {
+	width: 94px;
+	padding-left: 65px;	
+	text-align: left;
+}
 .price-controls .max-price {
-  width: 90px;
-  padding-left: 65px;
-}
+	width: 94px;
+	padding-left: 52px;	
+	text-align: left;
+}	
 .price-controls input {
   width: 50px;
   margin: 0;
@@ -648,6 +701,7 @@ input[type="checkbox"]:disabled + label::after {
   font: inherit;
   background: none;
   border: none;
+  line-height: 21px;
 }
 .range-controls {
   position: relative;
@@ -685,9 +739,10 @@ input[type="checkbox"]:disabled + label::after {
 .btn-transparent {
   display: block;
   margin: 0 auto;
-  padding: 6px 35px;
+  padding: 6px 33px;
   font-size: 14px;
-  line-height: 20px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  line-height: 21px;
   color: #ffffff;
   text-transform: uppercase;
   background: transparent;
@@ -839,16 +894,16 @@ input[type="checkbox"]:disabled + label::after {
 	line-height: 21px;
 }	
 .btn-place-hotel {
-	padding-left: 15px;
-	padding-right: 15px;		
+	padding-left: 16px;
+	padding-right: 16px;		
 	display: inline-block;
 	vertical-align: top;
-	margin-right: 3px;      /* почему кнопка-ссылка все равно получается шире примерно на 3 пикселя, чем на макете? */
+	margin-right: 4px;      /* почему кнопка-ссылка все равно получается шире примерно на 3 пикселя, чем на макете? */
 }	
 a.btn-place-hotel {
 	text-decoration: none;
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 14px;	
 }	
 .place-hotel-btn-left {
 	background-color: #81b3d2;
@@ -857,7 +912,7 @@ a.btn-place-hotel {
 	background-color: #669ec0;
 }	
 .place-hotel-btn-right {
-	background-color: #766357;
+	background-color: #766357;	
 }	
 .place-hotel-btn-right:hover {
 	background-color: #604e43;
