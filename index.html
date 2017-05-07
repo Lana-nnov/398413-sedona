@@ -32,10 +32,10 @@
 		</header>		
         <div class="img-main">			
 			<img class="sedona-text" src="img/sedona-text.png" width="458" height="352" alt="Седона приветствие">			
-			<div class="img-main-text">		
-				<h1>Седона - небольшой городок в Аризоне,
+			<div class="img-main-text">					
+				<h1>Седона — небольшой городок в Аризоне,
 				заслуживающий большего!</h1>				
-				<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд каньон</p>
+				<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд каньон!</p>
 			</div>	
 		</div>		 		
 		<section class="place clearfix">
@@ -43,7 +43,7 @@
 				<h2>Настоящий <br> 
 				городок</h2>
 				<p>- №1 -</p>
-				<p>Седона не аттракцион для туристов, там течет своя жизнь</p>
+				<p>Седона — не аттракцион для туристов, там течет своя жизнь</p>
 			</div>
 			<img class="place-img1" src="img/place1.jpg" alt="Дом в Седоне">
 		</section>
@@ -79,7 +79,7 @@
 			<div class="features-item-else">
 				<b class="place-about-name">Красивая дорога</b>
 				<p>- №4 -</p>
-				<p>Ехать в Седону из ЛасВегаса совсем не скучно!</p>
+				<p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
 			</div>
 			<div class="features-item-else">
 				<b class="place-about-name">Мало туристов</b>
@@ -94,25 +94,29 @@
 				<form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">			
 					<h2>Поиск гостиницы в Седоне</h2>					
 					<div class="feedback-form-group">
-						<label for="date-begin">Дата заезда</label>
-						<input type="text" id="date-begin" name="date-begin">
+						<label for="date-begin">Дата заезда:</label>
+						<input type="text" id="date-begin" name="date-begin" value="24 апреля 2017">
 						<div class="feedback-form-group-date">						
 						</div>
 					</div>
 					<div class="feedback-form-group">
-						<label for="date-end">Дата выезда</label>
-						<input type="text" id="date-end" name="date-end">
+						<label for="date-end">Дата выезда:</label>
+						<input type="text" id="date-end" name="date-end" value="4 июля 2017">
 						<div class="feedback-form-group-date">						
 						</div>
 					</div>
 					<div class="feedback-form-group clearfix">
 						<div class="feedback-form-group-adults">
-							<label for="amount">Взрослые</label>                    
+							<label for="amount">Взрослые</label>     
+							<button class="btn number-add" type="button"></button>	
 							<input type="number" id="amount" min="0" step="1" name="amount-adults" value="2">
+							<button class="btn number-deduct" type="button"></button>
 						</div>
 						<div class="feedback-form-group-kids">
-							<label for="amount-kids">Дети</label>                    
+							<label for="amount-kids">Дети</label>  
+							<button class="btn number-add" type="button"></button>								
 							<input type="number" id="amount-kids" min="0" step="1" name="amount-kids" value="0">
+							<button class="btn number-deduct" type="button"></button>
 						</div>
 					</div>						
 					<button class="feedback-form-group-btn" type="submit">Найти</button>						
