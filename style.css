@@ -407,12 +407,12 @@ input[type='number'] {
     -moz-appearance: textfield;
 }
 .feedback-form-group-btn {	
-	padding-top: 16px;
-	padding-bottom: 16px;	
+	padding-top: 17px;
+	padding-bottom: 17px;	
 	margin-left: 55px;
 	margin-right: 55px;
 	width: 458px;
-	height: 58px;	
+	height: 60px;	
 	background-color: #81b3d2;
 	border: none;
 	color: #ffffff;
@@ -477,8 +477,10 @@ input[type='number'] {
 	background-color: #f2f2f2;	
 }	
 .feedback-form-group-adults input:focus {
-	background-color: #ffffff;
-	outline: 2px solid #e5e5e5;
+	background-color: #ffffff;	
+	border: 2px solid #e5e5e5;		
+	height: 34px;
+	width: 34px;
 }	
 .feedback-form-group-kids {
 	float: right;		
@@ -491,7 +493,9 @@ input[type='number'] {
 }
 .feedback-form-group-kids input:focus {
 	background-color: #ffffff;	
-	outline: 2px solid #e5e5e5;	
+	border: 2px solid #e5e5e5;		
+	height: 34px;
+	width: 34px;
 }	
 .map {
 	background-image: url(img/map.jpg);	
@@ -515,8 +519,8 @@ input[type='number'] {
 	float: left;
 	width: 400px;	
 	text-align: center;		
-	margin-top: 47px;
-	margin-bottom: 47px;
+	margin-top: 46px;
+	margin-bottom: 46px;
 	font-size: 21px;	
 }
 .container-footer a:hover {	
@@ -528,7 +532,7 @@ input[type='number'] {
 	padding-left: 124px;
 	padding-right: 124px;
 	padding-top: 36px;
-	padding-bottom: 36px;	
+	padding-bottom: 34px;		
 	margin: 0;
 }
 .footer-social a {
@@ -542,7 +546,7 @@ input[type='number'] {
 	margin-left: 6px;	
 	font-size: 0;
 	background: #81b3d2;
-	position: relative;		
+	position: relative;	
 }
 .social-btn:first-child {
 	margin-left: 0;
@@ -582,8 +586,8 @@ input[type='number'] {
 	width: 298px;
 	padding-left: 102px;	
 	text-align: left;	
-	margin-top: 40px;
-	margin-bottom: 40px;	
+	margin-top: 39px;
+	margin-bottom: 39px;	
 }	
 .footer-copyright a{
 	background: url(img/logo-footer.png) no-repeat 44% 65%;		
@@ -601,9 +605,10 @@ input[type='number'] {
 .booking-form {
 	padding-left: 73px;
 	padding-right: 73px;
-	padding-top: 26px;	
-	min-height: 192px;
-	background: #6699cc url(img/hotels-main.jpg) no-repeat;
+	padding-top: 27px;	
+	min-height: 191px;
+	background: url(img/hotels-main-copy.jpg) no-repeat;
+	background-position: top center;
 	color: #ffffff;
 }
 .booking-form fieldset {
@@ -677,14 +682,14 @@ input[type="checkbox"]:disabled + label::after {
 	text-align: center;		
 }
 .filter-range-title {
-	margin-bottom: 10px;
+	margin-bottom: 11px;
 	font-weight: 700;
   	text-align: left;
 	font-size: 16px;
 	line-height: 21px;
 }
 .price-controls {
-	height: 32px;
+	height: 33px;
 	margin-bottom: 20px;
 	border: 2px solid #ffffff;
 	border-radius: 2px;
@@ -782,7 +787,7 @@ input[type="checkbox"]:disabled + label::after {
 
 .centerblock-range {		
 	padding-top: 29px;
-	padding-bottom: 29px;	
+	padding-bottom: 27px;	
 	position: relative;
 	border-bottom: 1px solid #e5e5e5;
 	padding-left: 73px;
@@ -843,7 +848,7 @@ input[type="checkbox"]:disabled + label::after {
 }	
 .centerblock-range-sorting {	
 	padding-bottom: 0;
-	padding-top: 2px;
+	padding-top: 4px;
 	font-size: 12px;
 	color: #000000;
 	padding-right: 38px;	
@@ -881,11 +886,11 @@ input[type="checkbox"]:disabled + label::after {
 }	
 /* верстка блока с гостиницами*/
 .centerblock-place {	
-	padding-bottom: 29px;
+	padding-bottom: 30px;
 	padding-left: 72px;
 	padding-right: 72px;
-	border: 1px solid #e5e5e5;	
-}
+	border-bottom: 1px solid #e5e5e5;	
+}	
 .centerblock-place h2 {
 	color: #000000;	
 	font-size: 21px; 
@@ -893,18 +898,18 @@ input[type="checkbox"]:disabled + label::after {
 }
 .centerblock-place img {
 	float: left;
-	margin-right: 30px;	
+	margin-right: 31px;	
 	margin-top: 30px;
 }
 .centerblock-place-hotel {
 	float: left;
 	width: 528px;
 	margin-right: 30px;	
-	padding-top: 24px;
+	padding-top: 25px;
 }
 .centerblock-place-hotel h2{
 	padding: 0;
-	margin-bottom: 8px;
+	margin-bottom: 9px;
 	margin-top: 0;
 }	
 .centerblock-place-hotel a {
@@ -970,9 +975,10 @@ a.btn-place-hotel {
 	float: right;
 	padding-bottom: 0;		
 	margin-left: 48px;
-	margin-bottom: 45px;
+	margin-bottom: 47px;
 	margin-right: 0;	
 }
-.container-footer-inner {
+.container-footer-inner {	
 	position: static;
+	margin: 0;	
 }
