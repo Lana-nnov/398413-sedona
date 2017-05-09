@@ -3,6 +3,7 @@ html, body {
 	margin: 0;
 	padding: 0;	         
 }
+
 /* ------------------------------ */
 body {
 	min-width: 1200px;
@@ -237,7 +238,7 @@ body {
 .features-item::before {
 	content: "";		
 	position: absolute;	
-	background-image: url(img/sprite.png);
+	background-image: url(img/sprite-sedona.png);
 	background-repeat: no-repeat;	
 	top: 60px;		
 	left: 50%;
@@ -246,18 +247,18 @@ body {
 .features-item-home::before {
     width: 75px;
     height: 72px;
-    background-position: -5px -87px;
+    background-position: -513px -10px;
 }
 .features-item-food::before {
     width: 75px;
     height: 72px;
-    background-position: -5px -5px;
+    background-position: -132px -10px;
 }
 
 .features-item-present::before {
     width: 75px;
     height: 72px;
-    background-position: -5px -169px;
+    background-position: -608px -10px;
 }
 		
 .features-item b{
@@ -332,6 +333,7 @@ body {
 	text-align: left;	
 	display: inline-block;
 	vertical-align: top;	
+	font-size: 14px;
 	line-height: 26px;
 	font-weight: 700;	
 	padding-top: 6px;
@@ -354,8 +356,10 @@ body {
 	padding-top: 0;
 	padding-left: 11px;		
 	font-size: 14px;
-	text-transform: uppercase;
-	font-family: "PT Sans", "Arial", sans-serif;		
+	line-height: 26px;
+	text-transform: uppercase;	
+	font-family: "PT Sans", "Arial", sans-serif;
+	font-weight: 700;			
 }
 .feedback-form-group input[type="text"]:hover {
 	background-color: #ebebeb;	
@@ -371,23 +375,22 @@ body {
 	height: 22px;
 	top: 8px;
 	right: 66px;	
-	background-image: url(img/sprite-form.png);
-	background-position: 50% 10%;
+	background-image: url(img/sprite-sedona.png);
+	background-position: -267px -10px;
 	background-repeat: no-repeat;	
 }	
 .feedback-form-group-date:hover {	
-	background-image: url(img/sprite-form-hover.png);
-	background-position: 50% 10%;
+	background-image: url(img/sprite-sedona.png);
+	background-position: -349px -10px;
 	background-repeat: no-repeat;	
 }	 
 .feedback-form-group-date:active {	
-	background-image: url(img/sprite-form-active.png);
-	background-position: 50% 10%;
+	background-image: url(img/sprite-sedona.png);
+	background-position: -308px -10px;
 	background-repeat: no-repeat;	
 }	 
-.feedback-form-group input[type="number"]
- {
-	width: 36px;
+.feedback-form-group input[type="number"] {
+ 	width: 36px;
 	height: 38px;
 	padding: 0;
 	background-color: #f2f2f2;	
@@ -396,12 +399,13 @@ body {
 	font-size: 14px;
 	text-transform: uppercase;
 	font-family: "PT Sans", "Arial", sans-serif;
+	font-weight: 700;	
 	border-right: 2px solid #f2f2f2;
 }
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+	-webkit-appearance: none; 
+	margin: 0; 
 }
 input[type='number'] {
     -moz-appearance: textfield;
@@ -441,40 +445,45 @@ input[type='number'] {
 	margin-right: 30px;	
 }	
 .number-add {
-	background: url(img/sprite-form.png) 50% 50% no-repeat;
+	background-image: url(img/sprite-sedona.png);
+	background-position: -425px -2px;	
+	background-repeat: no-repeat;
 	background-color: #f2f2f2;
 	border: none;
 	width: 38px;
 	height: 38px;	
 }	
 .number-deduct {
-	background: url(img/sprite-form.png) 50% 100% no-repeat;	
+	background-image: url(img/sprite-sedona.png);
+	background-position: -384px -2px;
+	background-repeat: no-repeat;
 	background-color: #f2f2f2;
 	border: none;
 	width: 38px;
 	height: 38px;	
 }	
-.number-add:hover {
-	background: 	
-	url(img/sprite-form-hover.png) 50% 50% no-repeat;	
+.number-add:hover {		
+	background-position: -466px -1px;
 	background-color: #ebebeb;
 }	
 .number-deduct:hover {
-	background: 	
-	url(img/sprite-form-hover.png) 50% 100% no-repeat;	
+	background-position: -218px -2px;		
 	background-color: #ebebeb;
 }	
 .feedback-form-group-adults input:hover {		
 	background-color: #ebebeb;
 }
 .number-add:active {
-	background: url(img/sprite-form-active.png) 50% 50% no-repeat;	
+	background-image: url(img/sprite-sedona.png);
+	background-position: -466px -29px;
+	background-repeat: no-repeat;
 	background-color: #f2f2f2;
 }	
 .number-deduct:active {
-	background: 	
-	url(img/sprite-form-active.png) 50% 100% no-repeat;	
-	background-color: #f2f2f2;	
+	background-image: url(img/sprite-sedona.png);
+	background-position: -218px -35px;
+	background-repeat: no-repeat;
+	background-color: #f2f2f2;
 }	
 .feedback-form-group-adults input:focus {
 	background-color: #ffffff;	
@@ -499,7 +508,7 @@ input[type='number'] {
 }	
 .map {
 	background-image: url(img/map.jpg);	
-	height: 593px;
+	height: 592px;
 	margin: 0;
 	padding: 0;	
 }	
@@ -561,25 +570,25 @@ input[type='number'] {
 	content: "";
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 50%;	
 	transform: translate(-50%,-50%);
-	background-image: url(img/sprite-footer.png);
+	background-image: url(img/sprite-sedona.png);
 	background-repeat: no-repeat;
 }
 .social-btn-fb::before {
     width: 21px;
     height: 25px;
-    background-position: -5px 0px;	
+	background-position: -97px -9px;	
 }
 .social-btn-tw::before {
 	width: 20px;
     height: 25px;
-    background-position: -35px 0px;
+    background-position: -700px -5px;
 }	
 .social-btn-yot::before {
 	width: 20px;
     height: 25px;
-    background-position: -65px 0px;
+    background-position: -739px -5px;
 }	
 .footer-copyright {
 	float: right;
@@ -651,30 +660,30 @@ input[type="checkbox"] + label::before {
 }	
 input[type="checkbox"]:checked + label::after {
 	content: "";
-	display: block;	
-	background-color: #336699;
+	display: block;		
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: url(img/sprite-checkbox.png) no-repeat;
+	background-image: url(img/sprite-sedona.png); 
+	background-repeat: no-repeat;
+	background-position: -11px -10px;
 	width: 26px;
     height: 22px;
-    background-position: -10px -10px;	
 }
 input[type="checkbox"]:disabled + label::before {	
 	border: 2px solid #6a6a6a;	
 }	
 input[type="checkbox"]:disabled + label::after {
 	content: "";
-	display: block;	
-	background-color: #336699;
+	display: block;		
 	position: absolute;
 	top: 0;
-	left: 0;
-	background: url(img/sprite-checkbox.png) no-repeat;
+	left: 0;	
+	background-image: url(img/sprite-sedona.png); 
+	background-repeat: no-repeat;
+    background-position: -56px -10px;
 	width: 26px;
-    height: 22px;	
-    background-position: -10px -52px;	
+    height: 22px;
 }
 .filter-range {
 	float: right;
@@ -724,65 +733,65 @@ input[type="checkbox"]:disabled + label::after {
 	text-align: left;
 }	
 .price-controls input {
-  width: 50px;
-  margin: 0;
-  padding: 0;
-  color: inherit;
-  font: inherit;
-  background: none;
-  border: none;
-  line-height: 21px;
+	width: 50px;
+	margin: 0;
+	padding: 0;
+	color: inherit;
+	font: inherit;
+	background: none;
+	border: none;
+	line-height: 21px;
 }
 .range-controls {
-  position: relative;
-  margin-bottom: 33px;
+	position: relative;
+	margin-bottom: 33px;
 }
 .range-controls .scale {
-  height: 2px;
-  background: rgba(255, 255, 255, 0.3);
+	height: 2px;
+	background: rgba(255, 255, 255, 0.3);
 }
 .range-controls .bar {
-  width: 80%;
-  height: 2px;
-  background: #ffffff;
+	width: 80%;
+	height: 2px;
+	background: #ffffff;
 }
 .range-toggle {
-  position: absolute;
-  top: -9px;
-  width: 4px;
-  height: 4px;
-  background: #ababab;
-  border: 8px solid #ffffff;
-  border-radius: 50%;
-  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
-  cursor: pointer;
+	position: absolute;
+	top: -9px;
+	width: 4px;
+	height: 4px;
+	background: #ababab;
+	border: 8px solid #ffffff;
+	border-radius: 50%;
+	box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+	cursor: pointer;
 }
 .range-toggle-min {
-  left: 0;
+	left: 0;
 }
 .range-toggle-max {
-  left: 80%;
+	left: 80%;
 }
 .range-toggle:hover {
-  background: #1c4f80;
+	background: #1c4f80;
 }
 .btn-transparent {
-  display: block;
-  margin-left: 85px;
-  padding: 6px 34px;
-  font-size: 14px;
-  font-family: "PT Sans", "Arial", sans-serif;
-  line-height: 21px;
-  color: #ffffff;
-  text-transform: uppercase;
-  background: transparent;
-  border: 2px solid #ffffff;
-  border-radius: 2px;
-  cursor: pointer;
+	display: block;
+	margin-left: 85px;
+	padding: 6px 34px;
+	font-size: 14px;
+	font-family: "PT Sans", "Arial", sans-serif;
+	line-height: 21px;
+	color: #ffffff;
+	text-transform: uppercase;
+	background: transparent;
+	border: 2px solid #ffffff;
+	border-radius: 2px;
+	cursor: pointer;
 }
 .btn-transparent:hover {
-  color: #000000;
-  background: #ffffff;
+	color: #000000;
+	background: #ffffff;
 }
 
 .centerblock-range {		
@@ -955,8 +964,7 @@ a.btn-place-hotel {
 	background-color: #604e43;
 }	
 .place-hotel-btn-left:active,
-.place-hotel-btn-right:active
-{
+.place-hotel-btn-right:active {
 	color: rgba(255, 255, 255, 0.3);
 }	
 .centerblock-place-rank {

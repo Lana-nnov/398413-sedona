@@ -30,130 +30,138 @@
 				</ul>
 			</nav>      	
 		</header>
-		<form class="booking-form clearfix" action="https://echo.htmlacademy.ru" method="post">
-			<fieldset>
-				<legend>Инфраструктура</legend>			
-				<p>
-					<input type="checkbox" name="pool" id="choice-1">					
-					<label for="choice-1">Бассейн</label>
-				</p>
-				<p>
-					<input type="checkbox" name="parking" id="choice-2">				
-					<label for="choice-2">Парковка</label>
-				</p>
-				<p>				
-					<input type="checkbox" name="wi-fi" id="choice-3">
-					<label for="choice-3">Wi-fi</label>		
-				</p>		
-			</fieldset>
-			<fieldset>
-				<legend>Тип жилья</legend>		
-				<p>	
-					<input type="checkbox" name="hotel" id="choice-4">
-					<label for="choice-4">Гостиница</label>
-				</p>	
-				<p>
-					<input type="checkbox" name="motel" id="choice-5">
-					<label for="choice-5">Мотель</label>
-				</p>	
-				<p>
-					<input type="checkbox" name="apartments" id="choice-6">
-					<label for="choice-6">Апартаменты</label>
-				</p>	
-			</fieldset>			
-			<div class="filter-range">				
-				<div class="filter-range-title">Стоимость в сутки (р):
-				</div>
-				<div class="price-controls">
-					<label class="min-price">от 
-					<input type="text" name="min-price" value="0">
-					</label>
-					<label class="max-price">до 
-					<input type="text" name="max-price" value="3000">
-					</label>	
-				</div>
-				<div class="range-controls">
-					<div class="scale">
-						<div class="bar">
+		<main>
+			<form class="booking-form clearfix" action="https://echo.htmlacademy.ru" method="post">
+				<fieldset>
+					<legend>Инфраструктура</legend>			
+					<p>
+						<input type="checkbox" name="pool" id="choice-1">					
+						<label for="choice-1">Бассейн</label>
+					</p>
+					<p>
+						<input type="checkbox" name="parking" id="choice-2">				
+						<label for="choice-2">Парковка</label>
+					</p>
+					<p>				
+						<input type="checkbox" name="wi-fi" id="choice-3">
+						<label for="choice-3">Wi-fi</label>		
+					</p>		
+				</fieldset>
+				<fieldset>
+					<legend>Тип жилья</legend>		
+					<p>	
+						<input type="checkbox" name="hotel" id="choice-4">
+						<label for="choice-4">Гостиница</label>
+					</p>	
+					<p>
+						<input type="checkbox" name="motel" id="choice-5">
+						<label for="choice-5">Мотель</label>
+					</p>	
+					<p>
+						<input type="checkbox" name="apartments" id="choice-6">
+						<label for="choice-6">Апартаменты</label>
+					</p>	
+				</fieldset>			
+				<div class="filter-range">				
+					<div class="filter-range-title">Стоимость в сутки (р):
+					</div>
+					<div class="price-controls">
+						<label class="min-price">от 
+						<input type="text" name="min-price" value="0">
+						</label>
+						<label class="max-price">до 
+						<input type="text" name="max-price" value="3000">
+						</label>	
+					</div>
+					<div class="range-controls">
+						<div class="scale">
+							<div class="bar">
+							</div>
+						</div>
+						<div class="range-toggle range-toggle-min">
+						</div>
+						<div class="range-toggle range-toggle-max">
 						</div>
 					</div>
-					<div class="range-toggle range-toggle-min">
+					<button class="btn-transparent" type="submit">Показать</button>
+				</div>					
+			</form>
+			<section class="centerblock clearfix">			
+				<div class="centerblock-range clearfix">
+					<p class="centerblock-range-results">Найдено: 3</p>
+					<p class="centerblock-range-sorting">Сортировка:</p>
+					<ul class="centerblock-range-menu clearfix">
+						<li>
+							<a>По цене</a>
+						</li>
+						<li>
+							<a href="#">По типу</a>
+						</li>
+						<li>
+							<a href="#">По рейтингу</a>
+						</li>                 
+					</ul>		
+					<div class="center-block-triangle-left">
 					</div>
-					<div class="range-toggle range-toggle-max">
+					<div class="center-block-triangle-right">
 					</div>
-				</div>
-				<button class="btn-transparent" type="submit">Показать</button>
-			</div>					
-		</form>
-		<section class="centerblock clearfix">			
-			<div class="centerblock-range clearfix">
-				<p class="centerblock-range-results">Найдено: 3</p>
-				<p class="centerblock-range-sorting">Сортировка:</p>
-				<ul class="centerblock-range-menu clearfix">
-					<li>
-						<a>По цене</a>
-					</li>
-					<li>
-						<a href="#">По типу</a>
-					</li>
-					<li>
-						<a href="#">По рейтингу</a>
-					</li>                 
-				</ul>		
-				<div class="center-block-triangle-left">
-				</div>
-				<div class="center-block-triangle-right">
-				</div>
-			</div>				
-			<div class="centerblock-place clearfix">
-				<img src="img/hotel1.jpg" width="135" height="90" alt="Седона гостиница">
-				<div class="centerblock-place-hotel">
-					<a href="#"><h2>Amara resort & SPA</h2></a>
-					<div class="centerblock-place-hotel-block clearfix">
-						<div class="centerblock-place-hotel-item">Гостиница</div>
-						<div class="centerblock-place-hotel-item">От 4000 р.</div>	
+				</div>				
+				<div class="centerblock-place clearfix">
+					<img src="img/hotel1.jpg" width="135" height="90" alt="Седона гостиница">
+					<div class="centerblock-place-hotel">
+						<a href="#"><h2>Amara resort & SPA</h2></a>
+						<div class="centerblock-place-hotel-block clearfix">
+							<div class="centerblock-place-hotel-item">Гостиница
+							</div>
+							<div class="centerblock-place-hotel-item">От 4000 р.
+							</div>	
+						</div>	
+						<a class="btn-place-hotel place-hotel-btn-left" href="#">Подробнее</a>
+						<a class="btn-place-hotel place-hotel-btn-right" href="#">Забронировать</a>					
 					</div>	
-					<a class="btn-place-hotel place-hotel-btn-left" href="#">Подробнее</a>
-					<a class="btn-place-hotel place-hotel-btn-right" href="#">Забронировать</a>					
-				</div>	
-				<div class="centerblock-place-rank">
-					<img src="img/rank.png" width="89" height="17" alt="рейтинг">
-					<p>Рейтинг: 8,5</p>	
-				</div>		
-			</div>			
-			<div class="centerblock-place clearfix">
-				<img src="img/hotel2.jpg" width="135" height="90" alt="Седона гостиница">
-				<div class="centerblock-place-hotel">
-					<a href="#"><h2>Desert quail inn</h2></a>
-					<div class="centerblock-place-hotel-block clearfix">
-						<div class="centerblock-place-hotel-item">Мотель</div>
-						<div class="centerblock-place-hotel-item">От 3000 р.</div>	
+					<div class="centerblock-place-rank">
+						<img src="img/rank.png" width="89" height="17" alt="рейтинг">
+						<p>Рейтинг: 8,5</p>	
+					</div>		
+				</div>			
+				<div class="centerblock-place clearfix">
+					<img src="img/hotel2.jpg" width="135" height="90" alt="Седона гостиница">
+					<div class="centerblock-place-hotel">
+						<a href="#"><h2>Desert quail inn</h2></a>
+						<div class="centerblock-place-hotel-block clearfix">
+							<div class="centerblock-place-hotel-item">Мотель
+							</div>
+							<div class="centerblock-place-hotel-item">От 3000 р.
+							</div>	
+						</div>	
+						<a class="btn-place-hotel place-hotel-btn-left" href="#">Подробнее</a>
+						<a class="btn-place-hotel place-hotel-btn-right" href="#">Забронировать</a>					
 					</div>	
-					<a class="btn-place-hotel place-hotel-btn-left" href="#">Подробнее</a>
-					<a class="btn-place-hotel place-hotel-btn-right" href="#">Забронировать</a>					
-				</div>	
-				<div class="centerblock-place-rank">
-					<img src="img/rank2.png" width="65" height="17" alt="рейтинг">
-					<p>Рейтинг: 8,9</p>	
-				</div>	
-			</div>
-			<div class="centerblock-place clearfix">
-				<img src="img/hotel3.jpg" width="135" height="90" alt="Седона гостиница">
-				<div class="centerblock-place-hotel">
-					<a href="#"><h2>Villas at poco diablo</h2></a>
-					<div class="centerblock-place-hotel-block clearfix">
-						<div class="centerblock-place-hotel-item">Апартаменты</div>
-						<div class="centerblock-place-hotel-item">От 2000 р.</div>	
+					<div class="centerblock-place-rank">
+						<img src="img/rank2.png" width="65" height="17" alt="рейтинг">
+						<p>Рейтинг: 8,9</p>	
 					</div>	
-					<a class="btn-place-hotel place-hotel-btn-left" href="#">Подробнее</a>
-					<a class="btn-place-hotel place-hotel-btn-right" href="#">Забронировать</a>					
-				</div>	
-				<div class="centerblock-place-rank">
-					<img src="img/rank3.png" width="42" height="17" alt="рейтинг">
-					<p>Рейтинг: 9,2</p>	
-				</div>	
-			</div>
-		</section>					
+				</div>
+				<div class="centerblock-place clearfix">
+					<img src="img/hotel3.jpg" width="135" height="90" alt="Седона гостиница">
+					<div class="centerblock-place-hotel">
+						<a href="#"><h2>Villas at poco diablo</h2></a>
+						<div class="centerblock-place-hotel-block clearfix">
+							<div class="centerblock-place-hotel-item">Апартаменты
+							</div>
+							<div class="centerblock-place-hotel-item">От 2000 р.
+							</div>	
+						</div>	
+						<a class="btn-place-hotel place-hotel-btn-left" href="#">Подробнее</a>
+						<a class="btn-place-hotel place-hotel-btn-right" href="#">Забронировать</a>					
+					</div>	
+					<div class="centerblock-place-rank">
+						<img src="img/rank3.png" width="42" height="17" alt="рейтинг">
+						<p>Рейтинг: 9,2</p>	
+					</div>	
+				</div>
+			</section>	
+		</main>		
 		<footer class="container-footer container-footer-inner clearfix">						  
 			<a class="visitsedona" href="#">#visitsedona</a>				
 			<section class="footer-social clearfix">			  
