@@ -9,7 +9,7 @@ body {
 	min-width: 1200px;
 	color: #333333;
 	font-size: 14px; 
-	line-height: 26px;
+	line-height: 26px;	
 	font-weight: 400;
 	font-family: "PT Sans", "Arial", sans-serif;
 	background-color: #f2f2f2;
@@ -122,9 +122,8 @@ body {
 	left: 372px;
 }
 .place {
-	position: relative;
-	overflow: hidden;
-}
+	background-color: #81b3d2;
+}	
 .place h2 {
 	color: #ffffff;
 	font-size: 21px; 
@@ -143,7 +142,7 @@ body {
 	padding-left: 60px;
 	padding-right: 60px;
 	background-color: #81b3d2;
-	min-height: 211px;
+	min-height: 210px;
 }
 .place-wrapper-second {
 	float: right;
@@ -174,8 +173,13 @@ body {
 	text-align: left;
 	display: inline;
 }
+.place-wrapper-img {
+	position: relative;
+	overflow: hidden;
+	height: 256px;
+}	
 .place-img1 {
-	position: absolute;
+	position: absolute;		
 	top: 0;
 	bottom: 0;
 	margin: auto 0;
@@ -297,7 +301,7 @@ body {
 .feedback p {
 	line-height: 24px;
 	padding: 0;
-	margin-bottom: 46px;
+	margin-bottom: 47px;
 }	
 .feedback h2 {
 	font-size: 21px;
