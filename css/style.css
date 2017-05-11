@@ -82,24 +82,21 @@ body {
 	text-align: center;
 	background: #ffffff url(../img/sedona-main.jpg) no-repeat;
 	background-position: top -50px center;
-	min-height: 724px; 
+	height: 510px; 
 	z-index: 1;
-}
-.img-main-text {
-	position: absolute;
-	width: 100%;
-	top: 510px;
+}           
+.img-main-text {	
 	padding-top: 57px;
 	text-align: center;
 	background-color: #ffffff;
-	padding-bottom: 52px;
+	padding-bottom: 52px;	
 }
 .img-main-text h1{
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
 	margin-top: 0;
-	margin-bottom: 30px;
+	margin-bottom: 29px;
 	padding-top: 0;
 	padding-bottom: 0;
 	padding-left: 320px;
@@ -107,6 +104,7 @@ body {
 }
 .img-main-text p {
 	margin: 0;
+	padding: 0;
 }
 .img-main::after {
 	content: "";
@@ -141,32 +139,33 @@ body {
 	width: 280px;
 	text-align: center;
 	color: #ffffff;
-	padding-top: 47px;
+	padding-top: 46px;
 	padding-left: 60px;
 	padding-right: 60px;
 	background-color: #81b3d2;
-	min-height: 209px;
+	min-height: 211px;
 }
 .place-wrapper-second {
 	float: right;
 	width: 304px;
 	text-align: center;
 	color: #ffffff;
-	padding-top: 46px;
+	padding-top: 45px;
 	padding-left: 48px;
 	padding-right: 48px;
 	background-color: #81b3d2;
-	min-height: 212px;
+	min-height: 211px;
 }
 .place-wrapper-first p,
 .place-wrapper-second p {
 	font-size: 14px;
 	line-height: 21px;
 	margin-top: 0;
+	margin: 0;
 	padding: 0;
 }
 .place-wrapper-second p {
-	margin-bottom: 15px;
+	margin-bottom: 14px;
 }
 .place-wrapper-first p {
 	margin-bottom: 20px;
@@ -261,6 +260,7 @@ body {
 	margin-top: 0;
 	margin-bottom: 25px;
 	display: inline-block;
+	vertical-align: top;
 }
 .features-item-else b{
 	font-size: 21px;
@@ -269,6 +269,7 @@ body {
 	max-width: 160px;
 	margin-top: 0;
 	display: inline-block;
+	vertical-align: top;
 }
 .features-item p{
 	font-size: 14px;
@@ -285,8 +286,7 @@ body {
 }
 .feedback {
 	position: relative;
-	padding-top: 55px;
-	padding-bottom: 130px;
+	padding-top: 55px;		
 	text-align: center;
 }
 .feedback b {
@@ -297,31 +297,40 @@ body {
 .feedback p {
 	line-height: 24px;
 	padding: 0;
-	margin: 0;
+	margin-bottom: 46px;
 }	
+.feedback h2 {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	width: 569px;
+	color: #ffffff;
+	padding-top: 29px;
+	padding-bottom: 31px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #766357;	
+}
+.map {
+	position: relative;
+	background-image: url(../img/map.jpg);
+	background-color: #cccccc;
+	height: 596px;
+	margin: 0;
+	padding: 0;
+}
 .feedback-form {
 	position: absolute;
-	top: 205px;
-	left: 316px;
-	width: 570px;
+	top: 0;
+	left: 315px;
+	width: 568px;	
 	background-color: #ffffff;
+	padding-top: 56px;	
 	padding-bottom: 55px;
 	text-align: left;
 	font-weight: 700;
 	z-index: 1;
 	box-shadow: 0px 7px 15px 0 rgba(0, 1, 1, 0.15);
-}
-.feedback-form h2 {
-	font-size: 21px;
-	line-height: 26px;
-	font-weight: 700;
-	width: 100%;
-	color: #ffffff;
-	padding: 30px 0px;
-	margin: 0;
-	text-align: center;
-	background-color: #766357;
-	margin-bottom: 56px;
 }
 .feedback-form label{
 	text-align: left;
@@ -338,7 +347,7 @@ body {
 	position: relative;
 }
 .feedback-form-group > label{
-	width: 110px;
+	width: 108px;
 }
 .feedback-form-group input[type="text"]{
 	width: 298px;
@@ -367,9 +376,10 @@ body {
 	display: block;
 	width: 21px;
 	height: 22px;
-	top: 8px;
-	right: 66px;
-	background-image: url(../img/sprite-sedona.png);
+	font-size: 0;
+	top: 7px;
+	right: 65px;
+	background-image: url(../img/sprite-sedona.png);	
 	background-position: -267px -10px;
 	background-repeat: no-repeat;
 }
@@ -405,12 +415,12 @@ input[type='number'] {
 	-moz-appearance: textfield;
 }
 .feedback-form-group-btn {
-	padding-top: 17px;
-	padding-bottom: 17px;
+	padding-top: 16px;
+	padding-bottom: 16px;
 	margin-left: 55px;
 	margin-right: 55px;
 	width: 458px;
-	height: 60px;
+	height: 59px;
 	background-color: #81b3d2;
 	border: none;
 	color: #ffffff;
@@ -424,7 +434,8 @@ input[type='number'] {
 	background-color: #669ec0;
 }
 .feedback-form-group-btn:active {
-	background-color: rgba(84, 150, 189, 0.3);
+	background-color: #5496bd;	
+	color: rgba(255, 255, 255, 0.3);
 }
 .feedback-form-group-adults {
 	float: left;
@@ -433,19 +444,20 @@ input[type='number'] {
 	display: flex;
 }
 .feedback-form-group-adults label{
-	width: 114px;
+	width: 111px;
 }
 .feedback-form-group-kids label{
 	margin-right: 30px;	
 }
 .number-add {
 	background-image: url(../img/sprite-sedona.png);
-	background-position: -425px -2px;
+	background-position: -423px -3px;
 	background-repeat: no-repeat;
 	background-color: #f2f2f2;
 	border: none;
 	width: 38px;
 	height: 38px;
+	font-size: 0;
 }
 .number-deduct {
 	background-image: url(../img/sprite-sedona.png);
@@ -455,9 +467,10 @@ input[type='number'] {
 	border: none;
 	width: 38px;
 	height: 38px;
+	font-size: 0;
 }	
 .number-add:hover {
-	background-position: -466px -1px;
+	background-position: -463px -1px;
 	background-color: #ebebeb;
 }
 .number-deduct:hover {
@@ -469,7 +482,7 @@ input[type='number'] {
 }
 .number-add:active {
 	background-image: url(../img/sprite-sedona.png);
-	background-position: -466px -29px;
+	background-position: -463px -29px;
 	background-repeat: no-repeat;
 	background-color: #f2f2f2;
 }	
@@ -499,12 +512,6 @@ input[type='number'] {
 	border: 2px solid #e5e5e5;
 	height: 34px;
 	width: 34px;
-}
-.map {
-	background-image: url(../img/map.jpg);	
-	height: 592px;
-	margin: 0;
-	padding: 0;
 }
 /* стили для футера */
 .container-footer {
@@ -537,6 +544,7 @@ input[type='number'] {
 	padding-top: 36px;
 	padding-bottom: 34px;
 	margin: 0;
+	max-width: 152px;
 }
 .footer-social a {
 	float: left;
@@ -547,18 +555,21 @@ input[type='number'] {
 	width: 46px;
 	height: 47px;
 	margin-left: 6px;
+	margin-bottom: 6px;	
 	font-size: 0;
 	background: #81b3d2;
 	position: relative;
 }
-.social-btn:first-child {
+.social-btn:first-child,
+.social-btn:nth-child(4n)
+ {
 	margin-left: 0;
 }	
 .social-btn:hover {
 	background: #669ec0;
 }
 .social-btn:active {
-	background-color: rgba(84, 150, 189, 0.3);
+	background-color: #5496bd;	
 }
 .social-btn::before {
 	content: "";
@@ -569,6 +580,9 @@ input[type='number'] {
 	background-image: url(../img/sprite-sedona.png);
 	background-repeat: no-repeat;
 }
+.social-btn:active::before {
+	opacity: 0.3;
+}	
 .social-btn-fb::before {
 	width: 21px;
 	height: 25px;
@@ -595,11 +609,15 @@ input[type='number'] {
 .footer-copyright a{
 	background: url(../img/logo-footer.png) no-repeat 44% 65%;
 	display: block;
+	vertical-align: middle;
 	padding-top: 7px;
 	padding-bottom: 7px;
 }
-.footer-copyright a{
-	vertical-align: middle;
+.footer-copyright span{
+	font-size: 0;
+}
+.footer-copyright a:hover{
+	color: #000000;
 }
 .footer-copyright a:hover {
 	background: url(../img/logo-footer-hover.png) no-repeat 44% 65%;
@@ -711,6 +729,7 @@ input[type="checkbox"]:disabled + label::after {
 }
 .price-controls label {
 	display: inline-block;
+	vertical-align: top;
 	font-size: 14px;
 	line-height: 38px;
 	vertical-align: top;
@@ -811,6 +830,7 @@ input[type="checkbox"]:disabled + label::after {
 	display: block;
 	top: 40px;
 	right: 98px;
+	font-size: 0;
 }
 .center-block-triangle-left:hover {
 	border-bottom-color: #000000;
@@ -832,6 +852,7 @@ input[type="checkbox"]:disabled + label::after {
 	display: block;
 	top: 40px;
 	right: 73px;
+	font-size: 0;
 }
 .center-block-triangle-right:hover {
 	border-top-color: #000000;    
@@ -850,7 +871,7 @@ input[type="checkbox"]:disabled + label::after {
 .centerblock-range-sorting {
 	padding-bottom: 0;
 	padding-top: 4px;
-	font-size: 12px;
+	font-size: 12px;	
 	color: #000000;
 	padding-right: 38px;
 	margin: 0;
@@ -867,20 +888,26 @@ input[type="checkbox"]:disabled + label::after {
 .centerblock-range-menu li{
 	float: left;
 	margin-right: 33px;
-	padding-top: 2px;
+	padding-top: 5px;
 	font-size: 12px;
 }
 .centerblock-range-menu li a{
-	border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+	border-bottom: 1px dotted #81b3d2;
 	color: rgba(0, 0, 0, 0.3);
 	text-decoration: none;
 }
-.centerblock-range-menu li a:hover{
+.centerblock-range-menu li a:hover,
+.centerblock-range-menu li a.active:hover {
 	text-decoration: none;
 	color: #81b3d2;
-	border: none;
+	border-bottom: 1px dotted #81b3d2;
 }
-.centerblock-range-menu li a:active{
+.centerblock-range-menu li a.active {	
+	color: #81b3d2;
+	border: none;
+}		
+.centerblock-range-menu li a:active,
+.centerblock-range-menu li a.active:active {
 	text-decoration: none;
 	color: #000000;
 	border: none;
@@ -963,6 +990,9 @@ a.btn-place-hotel {
 	float: right;
 	width: 160px;
 }
+.centerblock-place-rank span{
+	font-size: 0px;
+}	
 .centerblock-place-rank p{
 	float: right;
 	padding-left: 14px;

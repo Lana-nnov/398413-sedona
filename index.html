@@ -22,31 +22,31 @@
 						<a href="#">Фото и видео</a>
 					</li>
 					<li>
-						<a href="#">Гостиницы</a>
+						<a href="inner.html">Гостиницы</a>
 					</li>
 					<li>
 						<a href="#">Карта штата</a>
 					</li>            
 				</ul>
 			</nav> 
-		</header>	
-		<main>	
+		</header>
+		<main>
 			<div class="img-main">
 				<img class="sedona-text" src="img/sedona-text.png" width="458" height="352" alt="Седона приветствие">
-				<div class="img-main-text">
-					<h1>Седона — небольшой городок в Аризоне,
-					заслуживающий большего!</h1>
-					<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд каньон!</p>
-				</div>
 			</div>
+			<div class="img-main-text">
+				<h1>Седона — небольшой городок в Аризоне,
+					заслуживающий большего!</h1>
+				<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд каньон!</p>
+			</div>	
 			<section class="place clearfix">
 				<div class="place-wrapper-first">
 					<h2>Настоящий <br> 
 					городок</h2>
-					<p>- №1 -</p>
+					<p>— №1 —</p>
 					<p>Седона — не аттракцион для туристов, там течет своя жизнь</p>
 				</div>
-				<img class="place-img1" src="img/place1.jpg" alt="Дом в Седоне">
+				<img class="place-img1" src="img/place1.jpg" width="800" height="401" alt="Дом в Седоне">
 			</section>
 			<section class="features">
 				<div class="features-item features-item-home">
@@ -66,10 +66,10 @@
 				<div class="place-wrapper-second">
 					<h2>Там есть <br> 
 					мост дьявола</h2>
-					<p>- №2 -</p>
+					<p>— №2 —</p>
 					<p>Да, по нему можно пройти, если, конечно вы осмелитесь</p>
 				</div>
-				<img class="place-img2" src="img/place2.jpg" alt="Мост Дьявола">
+				<img class="place-img2" src="img/place2.jpg" width="800" height="400" alt="Мост Дьявола">
 			</section>
 			<section class="features-else">
 				<div class="features-item-else">
@@ -91,40 +91,40 @@
 			<div class="feedback">
 				<b>Заинтересовались?</b>
 				<p>Укажите предполагаемые даты поездки, <br>
-				и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+				и мы покажем вам лучшие предложения гостиниц в Седоне</p>				
+				<h2>Поиск гостиницы в Седоне:</h2>				
+			</div>
+			<div class="map">
 				<form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
-					<h2>Поиск гостиницы в Седоне</h2>
 					<div class="feedback-form-group">
 						<label for="date-begin">Дата заезда:</label>
 						<input type="text" id="date-begin" name="date-begin" value="24 апреля 2017">
-						<div class="feedback-form-group-date">
+						<div class="feedback-form-group-date">Выбрать дату заезда
 						</div>
 					</div>
 					<div class="feedback-form-group">
 						<label for="date-end">Дата выезда:</label>
 						<input type="text" id="date-end" name="date-end" value="4 июля 2017">
-						<div class="feedback-form-group-date">
+						<div class="feedback-form-group-date">Выбрать дату выезда
 						</div>
 					</div>
 					<div class="feedback-form-group clearfix">
 						<div class="feedback-form-group-adults">
 							<label for="amount">Взрослые</label>
-							<button class="btn number-deduct" type="button"></button>
+							<button class="btn number-deduct" type="button">Уменьшить число взрослых</button>
 							<input type="number" id="amount" min="0" step="1" name="amount-adults" value="2">
-							<button class="btn number-add" type="button"></button>
+							<button class="btn number-add" type="button">Добавить число взрослых</button>
 						</div>
 						<div class="feedback-form-group-kids">
 							<label for="amount-kids">Дети</label>  
-							<button class="btn number-deduct" type="button"></button>
+							<button class="btn number-deduct" type="button">Уменьшить число детей</button>
 							<input type="number" id="amount-kids" min="0" step="1" name="amount-kids" value="0">
-							<button class="btn number-add" type="button"></button>
+							<button class="btn number-add" type="button">Добавить число детей</button>
 						</div>
 					</div>
 					<button class="feedback-form-group-btn" type="submit">Найти</button>
-					</form>
+				</form>
 			</div>
-		<div class="map">
-		</div>
 		</main>
 		<footer class="container-footer clearfix">
 			<a class="visitsedona" href="#">#visitsedona</a>
@@ -134,7 +134,7 @@
 				<a class="social-btn social-btn-yot" href="#">Ютуб</a>
 			</section>
 			<section class="footer-copyright">
-				<a class="btn logo-btn" href="https://htmlacademy.ru/intensive/htmlcss">Website by:</a>
+				<a class="btn logo-btn" href="https://htmlacademy.ru/intensive/htmlcss">Website by:<span>HTML академия</span></a>
 			</section>
 		</footer>
 	</div>
