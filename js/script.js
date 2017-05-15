@@ -3,4 +3,4 @@
 
 	link.addEventListener("click", function (evt) { 
 	evt.preventDefault( );
-	popap.classList.toggle("feedback-form-open"); });
+	popap.classList.toggle("feedback-form-close"); });
